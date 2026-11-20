@@ -1,0 +1,8 @@
+# Core (required)
+requests>=2.31.0
+
+# Optional: loads the .env file next to the app file (app runs without it too)
+python-dotenv>=1.0.0
+
+# Optional: Firebase backend (app falls back to SQLite if missing)
+firebase-admin>=6.4.0
